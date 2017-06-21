@@ -1,0 +1,39 @@
+<html>
+<head>
+  <script language="javascript" type="text/javascript" src="basic.js">
+  </script>
+
+</head>
+    <body>
+      <p>This is web page body </p>
+      <!--<input type="button" onclick="return sayOK(3)" value="Say OK" /> -->
+      <input type="button" onclick="sayOK(3)" value="Say OK" />
+      <input type="button" onclick="secondFunction()" value="Anonymous function" />
+
+      <p>Bring your mouse inside the division to see the result:</p>
+
+      <!--<div onmouseover="over()" onmouseout="out()">
+         <h2> This is inside the division </h2>
+      </div>-->
+
+      <form name="myform" action="">Enter name:<input type="text" name="customer" />
+        <input type="button" value="Set cookie" onclick="WriteCookie()" />
+        <input type="button" value="Get cookie" onclick="ReadCookie()" />
+        <input type="button" value="Redirect" onclick="Redirect()" />
+        <input type="button" value="Confirm" onclick="getConfirmation()" />
+        <input type="button" value="Print" onclick="window.print()" />
+        <input type="button" value="Prompt" onclick="getValue()" />
+      </form>
+
+
+      <!--void-->
+      <a href="javascript:void(alert('warning'))">Click me</a>
+      </p>
+      <a href="javascript:void(0)">Nothing</a>
+
+
+
+
+    </body>
+
+</html>
