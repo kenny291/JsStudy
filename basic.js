@@ -16,6 +16,7 @@ switch (grade) {
 function sayOK(vari) {
     alert(1 + 10)
     document.write(vari)
+    document.write("abc".toUpperCase())
     document.write("<br />");
     //    alert(typeof 1)
 
