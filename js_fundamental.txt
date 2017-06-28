@@ -1,0 +1,20 @@
+Javascript ES6/ES7 fundamentals
+//Data types: 
+numbers, strings, objects
+
+//Method
+
+//Arrow function:
+ “fat arrow”, more concise syntax for writing function expressions. =>, anonymous, like lamda python, avoid having to type the function/return keyword
+https://www.sitepoint.com/es6-arrow-functions-new-fat-concise-syntax-javascript/
+
+//Class
+http://es6-features.org/#BaseClassAccess
+
+//Let
+let works very much like var. The main difference is that the scope of a var variable is the entire enclosing function:
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let 
+
+//Const: 
+immutable variables http://es6-features.org/#Constants
+

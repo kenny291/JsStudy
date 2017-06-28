@@ -1,3 +1,4 @@
+// https://github.com/lukehoban/es6features
 var ab = "sss".toUpperCase()
 
 // arrrow function
@@ -21,7 +22,7 @@ class Shape{
         this.id = id
         this.move = move(x,y)
     }
-    move (x, y){
+    static move (x, y){ //called without instance
         this.x = x
         this.y = y
     }
